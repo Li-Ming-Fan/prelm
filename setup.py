@@ -21,7 +21,7 @@ with open('LICENSE') as fp:
     license = fp.read()
 
 setup(name = 'prelm',
-      version = Zeras.__version__,
+      version = prelm.__version__,
       description = 'A package of pretrained language models.',
       long_description = readme,
       long_description_content_type="text/markdown",
