@@ -7,7 +7,7 @@ recursive-include demo *.py
 recursive-include docs *.py
 recursive-include docs *.md
 recursive-exclude * *.py[co]
-recursive-exclude * __pycache__
+recursive-exclude * __pycache__/
 recursive-exclude corpus_raw *
 recursive-exclude corpus_test *
 recursive-exclude data_prepare *
