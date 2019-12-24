@@ -1,14 +1,14 @@
 # prelm
 
-Pretrained Language Models
+Pretrained Language Models. TensorFlow v1.x
 
 
 ## Description
 
 ```
+from prelm import initialize_with_pretrained_ckpt
+
 from prelm.bert import BertConfig, BertModule
-
-
 ```
 
 
