@@ -10,6 +10,8 @@ try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
+    
+import setuptools
 
 import prelm
 
@@ -30,7 +32,7 @@ setup(name = 'prelm',
       maintainer='Ming-Fan Li',
       maintainer_email='li_m_f@163.com',
       url='https://github.com/Li-Ming-Fan/prelm',
-      packages=['prelm'],
+      packages=setuptools.find_packages(),
       #license=license,
       platforms=['any'],
       classifiers=[]
